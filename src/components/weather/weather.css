@@ -1,0 +1,171 @@
+.w {
+  flex: 3;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.w-details {
+  font-family: "Montserrat", sans-serif;
+  width: 70%;
+  border-radius: 10px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-left: 25px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.l {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+
+.avg-temp {
+  font-size: 60px;
+  margin-left: 80px;
+  font-weight: 600;
+  color: gray;
+}
+
+.l-name {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-left: 40px;
+  color: lightgray;
+}
+
+.w-desc {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.w-img {
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+}
+
+.w-desc-title {
+  /* margin-left: 25px; */
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.temp {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+i {
+  width: 25px;
+  font-size: 25px;
+  color: green;
+}
+
+.temp-info {
+  margin-top: 20px;
+}
+.t {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.high {
+  color: red;
+}
+.low {
+  color: aqua;
+}
+
+.search-con {
+  position: absolute;
+  right: 20px;
+}
+
+.search {
+  margin-left: 50px;
+  padding: 5px 10px;
+  border: 1px solid lightblue;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search::placeholder {
+  text-align: center;
+  color: lightgray;
+  font-family: "Montserrat", sans-serif;
+}
+
+.searchbtn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 20px;
+  border: 1px solid lightblue;
+  border-radius: 6px;
+  width: 100px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(184, 253, 230);
+  cursor: pointer;
+}
+
+.searchbtn:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.con {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.wind {
+  color: gray;
+}
+.humid {
+  color: brown;
+}
+.con-info {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+  .w-details{
+    height: 450px;
+  }
+  .l{
+    margin-top: 80px;
+  }
+
+  .avg-temp{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .l-name{
+    margin-left: 15px;
+    font-size: 25px;
+
+  }
+  .search{
+    width: 100px;
+    float: right;
+  }
+  .searchbtn{
+    float: right;
+    margin-top: 10px;
+  }
+  .searchbtn:hover{
+    transform: scale(1);
+  }
+}

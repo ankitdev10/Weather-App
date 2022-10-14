@@ -1,0 +1,21 @@
+.top{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.toplogo{
+    color: rgb(135, 209, 234);
+    font-size: 2rem;
+    margin-left: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    cursor: pointer;
+}
+
+.toplogo::first-letter{
+    font-size: 2.5rem;
+}
+
